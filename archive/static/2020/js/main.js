@@ -4276,7 +4276,7 @@ barcamp.viewportWidth = function() {
 }, barcamp.imageFailover = function() {
     $("img.failover").each(function() {
         function e(e) {
-            e.src = "/img/logo-icon-96.png";
+            e.src = "/2020/img/logo-icon-96.png";
         }
         this.complete ? 0 === this.naturalHeight && e(this) : $(this).on("error", function() {
             e(this);
